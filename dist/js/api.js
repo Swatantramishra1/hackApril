@@ -35,6 +35,7 @@ function formTableData(data) {
     domElement.innerHTML = elements;
     $(document).ready(function() {
      let table =   $('#dataTable').DataTable();
+     table.order([2,"desc"]).draw();
       });
 
     })
